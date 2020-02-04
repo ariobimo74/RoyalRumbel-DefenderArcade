@@ -1,6 +1,3 @@
-# RoyalRumbel-DefenderArcade
- Link of the questions here - > https://docs.google.com/document/d/1FmBHDPAzzN40j-sS0Gbb4cpGQAFUREs0pqdhjLHLuIs/edit
-
 1:
 Number 1 is a method to sort (according to) names with their numeral numbers. This method can only be applied with  a single name (a word) and its numeral number. If you want to edit it with more than a word, you can edit it at the first loop (search "if" the charAt ' ').
 
