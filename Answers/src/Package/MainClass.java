@@ -7,7 +7,6 @@ public class MainClass
 {
     public static void main(String[] args)
     {
-        RoyalRumbel royalRumbel = new RoyalRumbel();
         List <String> list1 = new LinkedList();
 
         list1.add("Louis X");
@@ -104,6 +103,11 @@ public class MainClass
 
         public void setLastName(String lastName) {
             this.lastName = lastName;
+        }
+
+        @Override
+        public String toString() {
+            return firstName + " " + lastName;
         }
     }
 }
